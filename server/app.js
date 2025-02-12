@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 
-const PORT = 5051;
+const PORT = 5005;
 
 app.use(express.static(path.join(__dirname, "dist")));
 
