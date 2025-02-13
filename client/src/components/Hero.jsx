@@ -54,7 +54,7 @@ const Hero = () => {
         {/* Right Side - Image */}
         <div className="lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0">
           <motion.img 
-            className="h-80 w-80 rounded-full shadow-lg shadow-purple-500/30"
+            className="h-80 w-70 rounded-full shadow-lg shadow-purple-500/30"
             src={myImage} 
             alt="Abdul Rahman"
             initial={{ opacity: 0, scale: 0.8 }}
