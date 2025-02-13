@@ -4,35 +4,29 @@ import { motion } from "framer-motion";
 const PROJECTS = [
   {
     title: "Complete Backend Project",
-    image: "", 
+    image: "../assets/Project/backend-proj.png", 
     description:
       "A backend system built with Node.js and Express, handling user authentication, API endpoints, and database operations.",
     technologies: ["Node.js", "Express.js", "MongoDB", "JWT"],
   },
   {
     title: "GitHub Automation Tool",
-    image: "", // Add image URL if available
+    image: "../assets/Project/githubProject.jpg", 
     description:
-      "A project that automates GitHub workflows, including repo management, issue tracking, and PR handling.",
+      "A project that automates GitHub workflows, including repo management.",
     technologies: ["Node.js", "GitHub API", "JavaScript"],
   },
   {
     title: "Todo CLI (Node.js)",
-    image: "", // Add image URL if available
+    image: "../assets/Project/todoProject.jpg", 
     description:
-      "A command-line interface (CLI) tool for managing tasks with features like add, remove, and mark as done.",
+      "A command-line interface (CLI) tool for managing tasks with features like add, remove, and edit task as done.",
     technologies: ["Node.js", "Commander.js", "File System"],
   },
-  {
-    title: "Todo Task Manager (JavaScript DOM)",
-    image: "", // Add image URL if available
-    description:
-      "A task management web app built using JavaScript and DOM manipulation, allowing users to add, delete, and update tasks.",
-    technologies: ["JavaScript", "DOM", "LocalStorage", "HTML", "CSS"],
-  },
+ 
   {
     title: "HTML & CSS Projects",
-    image: "", // Add image URL if available
+    image: "../assets/Project/html css projects.jpg",
     description:
       "Three different projects demonstrating front-end development skills using pure HTML and CSS.",
     technologies: ["HTML", "CSS", "Responsive Design"],
