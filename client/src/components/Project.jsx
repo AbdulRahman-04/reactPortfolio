@@ -1,24 +1,28 @@
 import React from "react";
 import { motion } from "framer-motion";
+import backednImage from "../assets/Project/backend-proj.png"
+import gitHubImage from "../assets/Project/githubProject.jpg"
+import todoCli from "../assets/Project/todoProject.jpg"
+import htmlCss from "../assets/Project/html css projects.jpg"
 
 const PROJECTS = [
   {
     title: "Complete Backend Project",
-    image: "../assets/Project/backend-proj.png", 
+    image: {backednImage} , 
     description:
       "A backend system built with Node.js and Express, handling user authentication, API endpoints, and database operations.",
     technologies: ["Node.js", "Express.js", "MongoDB", "JWT"],
   },
   {
     title: "GitHub Automation Tool",
-    image: "../assets/Project/githubProject.jpg", 
+    image: {gitHubImage}, 
     description:
       "A project that automates GitHub workflows, including repo management.",
     technologies: ["Node.js", "GitHub API", "JavaScript"],
   },
   {
     title: "Todo CLI (Node.js)",
-    image: "../assets/Project/todoProject.jpg", 
+    image: {todoCli}, 
     description:
       "A command-line interface (CLI) tool for managing tasks with features like add, remove, and edit task as done.",
     technologies: ["Node.js", "Commander.js", "File System"],
@@ -26,7 +30,7 @@ const PROJECTS = [
  
   {
     title: "HTML & CSS Projects",
-    image: "../assets/Project/html css projects.jpg",
+    image: {htmlCss},
     description:
       "Three different projects demonstrating front-end development skills using pure HTML and CSS.",
     technologies: ["HTML", "CSS", "Responsive Design"],
