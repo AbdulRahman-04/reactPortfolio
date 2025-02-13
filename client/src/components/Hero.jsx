@@ -44,10 +44,9 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
           >
             I am a passionate full stack developer with a knack for crafting
-            robust and scalable web applications. With 5 years of hands-on
-            experience, I have honed my skills in front-end technologies
-            like React and Next.js, as well as back-end technologies like
-            Node.js, MySQL, PostgreSQL, and MongoDB.
+            robust and scalable web applications. With 3 months of hands-on
+            experience, I have honed my skills in frontend technologies like Html, Css, Javascript, tailwindCSS,
+            ReactJs as well as back-end technologies like Node.js, ExpressJs, Postman, and MongoDB.
           </motion.p>
 
         </div>

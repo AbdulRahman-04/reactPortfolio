@@ -52,12 +52,12 @@ const About = () => {
           <p className="text-gray-400 text-sm leading-relaxed">
             I am a dedicated and versatile full stack developer with a
             passion for creating efficient and user-friendly web
-            applications. With 5 years of professional experience, I have
-            worked with a variety of technologies, including React, Next.js,
-            Node.js, MySQL, PostgreSQL, and MongoDB.
+            applications. With 3 months of experience, I have
+            worked with a variety of technologies, including ReactJs,
+            Node.js, ExpressJs, Postman, and MongoDB.
             <br /><br />
             My journey in web development began with a deep curiosity for
-            how things work, and it has evolved into a career where I
+            how things work and it has evolved, where I
             continuously strive to learn and adapt to new challenges.
             I thrive in collaborative environments and enjoy solving
             complex problems to deliver high-quality solutions.

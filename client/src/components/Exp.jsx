@@ -1,44 +1,48 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
 const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-    technologies: ["Javascript", "React.js", "Next.js", "MongoDB"],
+    year: "2024 - Present",
+    role: "Backend Development Trainee",
+    company: "Code for India Foundation",
+    description:
+      "Learning Node.js, Express.js, and MongoDB. Understanding RESTful APIs, authentication, and database management. Building small projects to apply concepts.",
+    technologies: ["Node.js", "Express.js", "MongoDB", "Postman"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
-    technologies: ["HTML", "CSS", "Vue.js", "MySQL"],
+    year: "2024 - Present",
+    role: "Frontend Development Trainee",
+    company: "Code for India Foundation",
+    description:
+      "Practicing HTML, CSS, and Tailwind CSS to build responsive web pages. Learning UI/UX best practices and modern web design principles.",
+    technologies: ["HTML", "CSS", "Tailwind CSS"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2024 - Present",
+    role: "JavaScript Enthusiast",
+    company: "Code for India Foundation",
+    description:
+      "Exploring JavaScript concepts deeply, including ES6+, array and object methods, promises, and async-await. Implementing JavaScript in real-world projects.",
+    technologies: ["JavaScript", "ES6+", "Promises", "Async/Await"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2024 - Present",
+    role: "API Testing & Development",
+    company: "Code for India Foundation",
+    description:
+      "Understanding how APIs work, testing them using Postman, and implementing CRUD operations with Express.js and MongoDB.",
+    technologies: ["Postman", "REST APIs", "Express.js", "MongoDB"],
   },
 ];
 
 const Exp = () => {
   return (
     <div className="border-b border-neutral-900 pb-16">
-      <motion.h2 
+      <motion.h2
         className="my-10 text-center text-4xl text-white"
-        initial={{ opacity: 0, y: -50 }} 
-        animate={{ opacity: 1, y: 0 }} 
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
         Experience 🚀
@@ -47,11 +51,11 @@ const Exp = () => {
       {/* Experience Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6">
         {EXPERIENCES.map((exp, index) => (
-          <motion.div 
-            key={index} 
+          <motion.div
+            key={index}
             className="relative bg-neutral-900/70 p-6 rounded-lg shadow-lg backdrop-blur-lg border border-cyan-500/30 hover:border-cyan-500/80 transition-all duration-300 transform hover:scale-105 hover:shadow-cyan-500/40"
-            initial={{ opacity: 0, y: 50 }} 
-            animate={{ opacity: 1, y: 0 }} 
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             <h3 className="text-xl font-semibold text-white">
@@ -63,8 +67,8 @@ const Exp = () => {
             {/* Tech Stack Badges */}
             <div className="mt-4 flex flex-wrap gap-2">
               {exp.technologies.map((tech, i) => (
-                <motion.span 
-                  key={i} 
+                <motion.span
+                  key={i}
                   className="bg-cyan-700 text-white px-3 py-1 text-xs rounded-md shadow-md cursor-pointer hover:bg-cyan-500 hover:shadow-lg transition-all"
                   whileHover={{ scale: 1.1 }}
                 >
